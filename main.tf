@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "shorter-solutions"
 
     workspaces {
       name = "learn-terraform-pipelines-consul"
@@ -17,7 +17,7 @@ terraform {
     }
   }
 
-  required_version = "~> 0.14"
+  required_version = ">= 1.1.0"
 }
 
 
